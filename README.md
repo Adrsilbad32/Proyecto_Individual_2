@@ -19,10 +19,9 @@ El [dataset](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics
 
 El propósito del trabajo fue describir las características de vuelos siniestrados a los efectos de analizar los siguientes **`KPI's`** propuestos:
 
-- Reducción en un 5% de la **`tasa anual de mortalidad`** (personas fallecidas/personas a bordo);
-- Aumento en la **`tasa anual de supervivencia`** (personas sobrevivientes / personas a bordo) para aerolíneas con gran cantidad de accidentes históricos ;
+- Evaluar la disminución de un 10% la tasa de fatalidad de la tripulación en los últimos 10 años, comparado a la década anterior.
 - Evolución de accidentes aéreos y comparación con métricas para definir **`tendencia`**;
-- Disminución de la **`cantidad de accidentes`** para el país con mayor cantidad de siniestros.
+
 
 ## ETL  
 
@@ -30,33 +29,8 @@ Para realizar los procesos de ETL se utilizó **`Python`** con librerías de Num
 Se pueden visualizar las transformaciones y los análisis realizados en el siguiente
 [archivo](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/accidentes_aereos.ipynb)
 
-## Exportación a MySQL
+andresg/2-proyecto-individual-Data-Analytics/blob/main/src/info%201%20air_accidents%20mysql.PNG?raw=true)
 
-Una vez finalizadas las transformaciones necesarias sobre el archivo csv, se procedió a ingestar el dataframe resultante en MySQL a través de python estableciendo la conexión correspondiente con la librería **`mysql-connector-python`**.
-A través del código en cuestión, se creó la base de datos **`air_flights`** y la tabla contenedora del dataframe **`air_accidents`**
-
-![Logo](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/src/info%201%20air_accidents%20mysql.PNG?raw=true)
-
-![Logo](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/src/info%20air_accidents%20mysql.PNG?raw=true)
-
-Se puede visualizar el código empleado en la última sección del siguiente
-[notebook](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/accidentes_aereos.ipynb)
-
-## Importación a Power BI y Modelado de datos
-
-Una vez importada la tabla air_accidents de MySQL, se optó por dividir el dataset en 1 tabla de transacciones y 4 tablas de dimensiones según las siguientes variables elegidas del dataset:
-- Marcas [brands]: identifcando la marca de la aeronave que tuvo el accidente;
-- Categorías [categories]: utilizando la categoría de vuelos militares (military) y no militares (non_military);
-- Países [countries]: colocando los países en los que tuvo lugar el accidente;
-- Superficies [surfaces]: clasificando según la superficie de impacto del accidente haya sido tierra (ground) o agua (water);
-- Accidentes aéreos [air_accidents]: tabla de transacciones que muestra por cada registro un (1) accidente aéreo con los atributos descriptos anteriormente y otros adicionales. Se procedió a crear una columna de índices a los fines de ser utilizada como clave primaria.
-
-Una vez efectuadas las creaciones de tablas y algunas transformaciones mínimas en **`Power Query`**, procedimos a unir las tablas en la vista "Modelo" mediante la clave primaria de cada tabla con la tabla de transacciones creando un esquema estrella. 
-
-A su vez creamos la tabla calendario [calendar] para poder ser utilizada en funciones de inteligencia de tiempo y mayor nivel de agregación de datos.
-El modelo quedó de la siguiente forma:
-
-![Logo](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/src/modelo.PNG?raw=true)
 
 
 ## Análisis exploratorio de datos
@@ -75,7 +49,7 @@ Se pueden visualizar las transformaciones y los análisis realizados en el sigui
 
 ## Dashboard e insights
 
-El [dashboard](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/dashboard_air_accidents.pbix) consta de 1 portada y 4 páginas navegables a través de una botonera de navegación.
+El [dashboard](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/dashboard_air_accidents.pbix) consta de 1 portada y 5 páginas navegables a través de una botonera de navegación.
 
 Se destaca que dentro de cada página del mismo, en la esquina superior derecha, se puede encontrar el botón de información que redirecciona a este repositorio de Github.
 
@@ -120,6 +94,6 @@ Por último analizamos la variación interanual de accidentes y podemos filtrar 
 ## Conclusiones
 
 - La Tasa anual de mortalidad, tal como puede visualizarse en la página 'País', oscila entre el 50% y el 100% para la mayoría de los años. La misma si bien presenta tendencia en algunos períodos, no podemos decir que tenga una marcada tendencia a la baja. Es importante en su lugar, estar por debajo del target de tasa conforme al KPI indicado por lo que se sugiere revisarlo año a año;
-- La tasa anual de supervivencia, tal como puede visualizarse en la página 'Operador', en contraposición a la tasa anual de mortalidad, oscila entre el 0% y y el 50% para la mayoría de los años. Es deseable para la mayoría de las aerolíneas poder mantenerse por encima del 50%. Se alienta a trabajar con las aerolíneas que no alcanzan el 50% y revisar sus protocolos de seguridad;
+- La tasa anual de supervivencia, tal como puede visualizarse en la página 'Operador', en contraposición a la tasa anual de mortalidad, oscila entre el 0% y y el 50% para la mayoría de los años. Es deseable para la mayoría de las aerolíneas poder mantenerse por encima del 50%. 
 - La tendencia anual de accidentes a lo largo de la historia comenzó una gran tendencia alcista desde los días de los primeros vuelos hasta 1945. La tendencia pudo consolidarse entre 1946 y 2004 para finalmente romper la zona de acumulación en 2005 (año en que confirmamos la tendencia a la baja comenzada en 1989). La media móvil de 10 años nos ayuda a visualizar años de baja siniestralidad, por lo que se alienta a mantenerse por debajo de la misma y activar alertas en el momento en que la tendencia anual se aproxime a la misma (situación que ha acontecido numerosas veces a lo largo de la historia). Es positivo a su vez, poder afirmar que la aviación ha alcanzado un nivel de seguridad que permite estar en los niveles de accidentes más bajos de la historia, considerando la cantidad de vuelos, personas transportadas y avances tecnológicos en contraposición a los primeros días;
 - Por último es destacable la tendencia anual de accidentes para los países como Estados Unidos y Rusia, los cuales pese a tener la mayor cantidad de accidentes históricos, mantienen marcadas tendencias a la baja en los últimos años, en concordancia con la tendencia mundial. # Proyecto_Individual_2

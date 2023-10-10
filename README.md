@@ -27,9 +27,9 @@ El propósito del trabajo fue describir las características de vuelos siniestra
 
 Para realizar los procesos de ETL se utilizó **`Python`** con librerías de Numpy, Pandas, Matplotlib y Seaborn, entre otras.
 Se pueden visualizar las transformaciones y los análisis realizados en el siguiente
-[archivo](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/accidentes_aereos.ipynb)
+[archivo]([https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/accidentes_aereos.ipynb])
 
-andresg/2-proyecto-individual-Data-Analytics/blob/main/src/info%201%20air_accidents%20mysql.PNG?raw=true)
+
 
 
 
@@ -45,21 +45,18 @@ Dentro de los análisis efectuados se encuentran:
 - Análisis temporales por hora, día, mes y año.
 
 Se pueden visualizar las transformaciones y los análisis realizados en el siguiente
-[archivo](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/accidentes_aereos.ipynb)
+[archivo]((https://github.com/Adrsilbad32/Proyecto_Individual_2/blob/8a9d4556473d5eca8b9726d5d8083ec7e5b39826/accidentes_aereos.ipynb))
 
 ## Dashboard e insights
 
 El [dashboard](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/dashboard_air_accidents.pbix) consta de 1 portada y 5 páginas navegables a través de una botonera de navegación.
 
-Se destaca que dentro de cada página del mismo, en la esquina superior derecha, se puede encontrar el botón de información que redirecciona a este repositorio de Github.
-
-![Logo](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/src/portada.PNG?raw=true)
 
 ### País
 
 En la primer página denominada **`País`**, se pueden observar los accidentes por país pudiendo filtrar a su vez por año, categoría del vuelo y superfice de impacto. Tenemos información acerca de pasajeros a bordo, fatalidades y tasa de mortalidad (TM) junto con un gráfico de su evolución a lo largo del tiempo.
 Podemos observar a `Estados Unidos` como el país con mayor cantidad de accidentes a lo largo de la historia y Rusia como el segundo.
-Por último podemos visualizar una tarjeta de KPI que muestra la tasa de mortalidad por año y su comparación con el **`target`** planteado (tasa del año anterior reducida en un 5% como mínimo). Si la tasa de mortalidad del año en cuestión es menor al target la tarjeta mostrará la tasa en color verde (véase 2020). Caso contrario mostrará la tasa en rojo (véase 2021). La tabla de análisis por año ayuda a clarificar sobre este KPI.
+Por último podemos visualizar una tarjeta de KPI que muestra la tasa de mortalidad por año. 
 
 ![Logo](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/src/pais.PNG?raw=true)
 

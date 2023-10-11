@@ -66,8 +66,6 @@ Por último podemos visualizar una tarjeta de KPI que muestra la tasa de mortali
 
 En la segunda página denominada **`Operador`**, se puede observar la cantidad de operadores analizados pudiendo filtrar a su vez por año, País y superfice de impacto. Tenemos información acerca de pasajeros a bordo, sobrevivientes y tasa de supervivencia (TS) junto con un gráfico de su evolución a lo largo del tiempo.
 Podemos observar a `Aeroflot` como la aerolínea con mayor cantidad de accidentes históricos seguido por la fuerza aérea de Estados Unidos.
-Por último podemos visualizar un KPI para la tasa de supervivencia estableciendo un **`target`** de un 50% para la misma. Observamos que la tasa de supervivencia varía de operador en operador, pero que un objetivo es mantener la misma por encima de un 50% para mejorar la seguridad en los vuelos (observar tendencia histórica).
-
 
 
 

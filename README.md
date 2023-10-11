@@ -51,7 +51,6 @@ Se pueden visualizar las transformaciones y los análisis realizados en el sigui
 
 El [dashboard](https://github.com/Adrsilbad32/Proyecto_Individual_2/blob/main/dashboard_air_accidents.pbix) consta de 1 portada y 5 páginas navegables a través de una botonera de navegación.
 
-[archivo]((https://github.com/Adrsilbad32/Proyecto_Individual_2/blob/main/Imagenes/Capturafdsaa.JPG))
 
 
 ### País

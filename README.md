@@ -21,6 +21,7 @@ El propósito del trabajo fue describir las características de vuelos siniestra
 
 - Evaluar la disminución de un 10% la tasa de fatalidad de la tripulación en los últimos 10 años, comparado a la década anterior.
 - Evolución de accidentes aéreos y comparación con métricas anteriores.
+- Disminución de la cantidad de accidentes por pais.
 
 
 ## ETL  

@@ -1,4 +1,4 @@
-![Logo](https://blog.soyhenry.com/content/images/2021/02/HEADER-BLOG-NEGRO-01.jpg)
+
 
 # DATA SCIENCE - PROYECTO INDIVIDUAL Nº2
 # Data Analytics

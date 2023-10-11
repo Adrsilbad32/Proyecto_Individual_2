@@ -5,7 +5,7 @@
 
 Este proyecto abarca una serie de pasos para desarrollar un proceso de **`Data Analytics`** sobre un dataset de accidentes aéreos, para posteriormente disponibilizar un **`Dashboard Interactivo`** utilizando **`Power BI`**.
 
-![Logo](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/src/avion.jpg?raw=true)
+![Logo]((https://github.com/Adrsilbad32/Proyecto_Individual_2/blob/main/Imagenes/imagesfw.jpg))
 
 ## Contexto
 
@@ -13,7 +13,7 @@ Se plantea la necesidad de analizar datos históricos de **`accidentes aéreos`*
 
 ## Dataset
 
-El [dataset](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/AccidentesAviones.csv) en cuestión posee información acerca de vuelos que han sufrido un siniestro a lo largo de todo el mundo desde 1908 hasta 2021. El mismo cuenta con 5008 filas (representando cada fila un accidente aéreo) y 18 columnas (atributos de cada vuelo).
+El [dataset](https://github.com/Adrsilbad32/Proyecto_Individual_2/blob/main/AccidentesAviones.csv) en cuestión posee información acerca de vuelos que han sufrido un siniestro a lo largo de todo el mundo desde 1908 hasta 2021. El mismo cuenta con 5008 filas (representando cada fila un accidente aéreo) y 18 columnas (atributos de cada vuelo).
 
 ## Objetivo
 
@@ -27,7 +27,7 @@ El propósito del trabajo fue describir las características de vuelos siniestra
 
 Para realizar los procesos de ETL se utilizó **`Python`** con librerías de Numpy, Pandas, Matplotlib y Seaborn, entre otras.
 Se pueden visualizar las transformaciones y los análisis realizados en el siguiente
-[archivo]([https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/accidentes_aereos.ipynb])
+[archivo](https://github.com/Adrsilbad32/Proyecto_Individual_2/blob/main/accidentes_aereos.ipynb)
 
 
 
@@ -51,6 +51,8 @@ Se pueden visualizar las transformaciones y los análisis realizados en el sigui
 
 El [dashboard](https://github.com/Adrsilbad32/Proyecto_Individual_2/blob/main/dashboard_air_accidents.pbix) consta de 1 portada y 5 páginas navegables a través de una botonera de navegación.
 
+[archivo]((https://github.com/Adrsilbad32/Proyecto_Individual_2/blob/main/Imagenes/Capturafdsaa.JPG))
+
 
 ### País
 
@@ -58,7 +60,7 @@ En la primer página denominada **`País`**, se pueden observar los accidentes p
 Podemos observar a `Estados Unidos` como el país con mayor cantidad de accidentes a lo largo de la historia y Rusia como el segundo.
 Por último podemos visualizar una tarjeta de KPI que muestra la tasa de mortalidad por año. 
 
-![Logo]()
+
 
 
 ### Operador
@@ -67,7 +69,7 @@ En la segunda página denominada **`Operador`**, se puede observar la cantidad d
 Podemos observar a `Aeroflot` como la aerolínea con mayor cantidad de accidentes históricos seguido por la fuerza aérea de Estados Unidos.
 Por último podemos visualizar un KPI para la tasa de supervivencia estableciendo un **`target`** de un 50% para la misma. Observamos que la tasa de supervivencia varía de operador en operador, pero que un objetivo es mantener la misma por encima de un 50% para mejorar la seguridad en los vuelos (observar tendencia histórica).
 
-![Logo]()
+
 
 
 ### Aeronave
@@ -76,7 +78,7 @@ En la tercer página denominada **`Aeronave`**, se puede observar la cantidad de
 Podemos observar al `Douglas DC-3` como el avión con mayor cantidad de accidentes a lo largo de la historia. El mismo perteneció a la compañía Douglas que con el tiempo mutó a MCDonell Douglas para finalmente convertirse en Boeing.
 
 
-![Logo]()
+
 
 
 ### Tendencia
@@ -86,7 +88,9 @@ Podemos destacar que no siempre existe una relación directa entre la tendencia 
 Por otro lado se pueden analizar la cantidad de accidentes a lo largo de los años con la media móvil de 10 períodos, lo cual nos permite concluír que los años donde la cantidad de accidentes se ha encontrado por debajo de la media móvil, han resultado años con baja siniestralidad, mientras que aquellos años donde la cantidad ha estado por encima han sido años con una gran cantidad de accidentes (años entre 1946 y 2004). Dicha media móvil puede ser ajustada en función de las circunstancias del futuro. Tal es así que podemos inferir que a nivel mundial estamos en una tendencia a la baja en cantidad de accidentes desde 1989 (año en que comienza a descender la cantidad de accidentes) y por debajo del promedio móvil de 10 años en los años siguientes por lo que resulta interesante mantenerse por debajo de dicho patrón para los próximos años.
 Por último analizamos la variación interanual de accidentes y podemos filtrar por países como Estados Unidos para observar cómo se ha comportado en los últimos años pese a tener la mayor cantidad de accidentes y pasajeros históricos.
 
-![Logo]()
+[archivo](https://github.com/Adrsilbad32/Proyecto_Individual_2/blob/main/Imagenes/Capturasfacsz.JPG)
+[archivo](https://github.com/Adrsilbad32/Proyecto_Individual_2/blob/main/Imagenes/Capturadfgdf.JPG)
+
 
 ## Conclusiones
 

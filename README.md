@@ -21,8 +21,7 @@ El propósito del trabajo fue describir las características de vuelos siniestra
 
 - Evaluar la disminución de un 10% la tasa de fatalidad de la tripulación en los últimos 10 años, comparado a la década anterior.
 - Evolución de accidentes aéreos y comparación con métricas anteriores.
-- Disminución de la cantidad de accidentes por pais.
-
+- Comparacion tasa de mortalidad vs. tasa de supervivenvia. (Comparativa mediante un target)
 
 ## ETL  
 
@@ -95,4 +94,6 @@ Por último analizamos la variación interanual de accidentes y podemos filtrar 
 - La Tasa anual de mortalidad, tal como puede visualizarse en la página 'País', oscila entre el 50% y el 100% para la mayoría de los años. La misma si bien presenta tendencia en algunos períodos, no podemos decir que tenga una marcada tendencia a la baja. Es importante en su lugar, estar por debajo del target de tasa conforme al KPI indicado por lo que se sugiere revisarlo año a año;
 - La tasa anual de supervivencia, tal como puede visualizarse en la página 'Operador', en contraposición a la tasa anual de mortalidad, oscila entre el 0% y y el 50% para la mayoría de los años. Es deseable para la mayoría de las aerolíneas poder mantenerse por encima del 50%. 
 - La tendencia anual de accidentes a lo largo de la historia comenzó una gran tendencia alcista desde los días de los primeros vuelos hasta 1945. La tendencia pudo consolidarse entre 1946 y 2004 para finalmente romper la zona de acumulación en 2005 (año en que confirmamos la tendencia a la baja comenzada en 1989). La media móvil de 10 años nos ayuda a visualizar años de baja siniestralidad, por lo que se alienta a mantenerse por debajo de la misma y activar alertas en el momento en que la tendencia anual se aproxime a la misma (situación que ha acontecido numerosas veces a lo largo de la historia). Es positivo a su vez, poder afirmar que la aviación ha alcanzado un nivel de seguridad que permite estar en los niveles de accidentes más bajos de la historia, considerando la cantidad de vuelos, personas transportadas y avances tecnológicos en contraposición a los primeros días;
-- Por último es destacable la tendencia anual de accidentes para los países como Estados Unidos y Rusia, los cuales pese a tener la mayor cantidad de accidentes históricos, mantienen marcadas tendencias a la baja en los últimos años, en concordancia con la tendencia mundial. # Proyecto_Individual_2
+- Por último es destacable la tendencia anual de accidentes para los países como Estados Unidos y Rusia, los cuales pese a tener la mayor cantidad de accidentes históricos, mantienen marcadas tendencias a la baja en los últimos años, en concordancia con la tendencia mundial.
+
+  

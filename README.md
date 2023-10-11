@@ -88,8 +88,8 @@ Podemos destacar que no siempre existe una relación directa entre la tendencia 
 Por otro lado se pueden analizar la cantidad de accidentes a lo largo de los años con la media móvil de 10 períodos, lo cual nos permite concluír que los años donde la cantidad de accidentes se ha encontrado por debajo de la media móvil, han resultado años con baja siniestralidad, mientras que aquellos años donde la cantidad ha estado por encima han sido años con una gran cantidad de accidentes (años entre 1946 y 2004). Dicha media móvil puede ser ajustada en función de las circunstancias del futuro. Tal es así que podemos inferir que a nivel mundial estamos en una tendencia a la baja en cantidad de accidentes desde 1989 (año en que comienza a descender la cantidad de accidentes) y por debajo del promedio móvil de 10 años en los años siguientes por lo que resulta interesante mantenerse por debajo de dicho patrón para los próximos años.
 Por último analizamos la variación interanual de accidentes y podemos filtrar por países como Estados Unidos para observar cómo se ha comportado en los últimos años pese a tener la mayor cantidad de accidentes y pasajeros históricos.
 
-[archivo](https://github.com/Adrsilbad32/Proyecto_Individual_2/blob/main/Imagenes/Capturasfacsz.JPG)
-[archivo](https://github.com/Adrsilbad32/Proyecto_Individual_2/blob/main/Imagenes/Capturadfgdf.JPG)
+![logo](https://github.com/Adrsilbad32/Proyecto_Individual_2/blob/main/Imagenes/Capturasfacsz.JPG)
+![logo](https://github.com/Adrsilbad32/Proyecto_Individual_2/blob/main/Imagenes/Capturadfgdf.JPG)
 
 
 ## Conclusiones

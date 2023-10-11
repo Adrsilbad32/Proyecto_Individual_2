@@ -5,7 +5,7 @@
 
 Este proyecto abarca una serie de pasos para desarrollar un proceso de **`Data Analytics`** sobre un dataset de accidentes aéreos, para posteriormente disponibilizar un **`Dashboard Interactivo`** utilizando **`Power BI`**.
 
-![Logo]((https://github.com/Adrsilbad32/Proyecto_Individual_2/blob/main/Imagenes/imagesfw.jpg))
+![Logo](https://github.com/Adrsilbad32/Proyecto_Individual_2/blob/main/Imagenes/imagesfw.jpg)
 
 ## Contexto
 

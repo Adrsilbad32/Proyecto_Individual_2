@@ -3,7 +3,7 @@
 # DATA SCIENCE - PROYECTO INDIVIDUAL Nº2
 # Data Analytics
 
-Este proyecto abarca una serie de pasos para desarrollar un proceso de **`Data Analytics`** sobre un dataset de accidentes aéreos, para posteriormente disponibilizar un **`Dashboard Interactivo`** utilizando **`Power BI`**.
+Este proyecto abarca una serie de pasos para desarrollar un proceso de Data Analytics sobre un dataset de accidentes aéreos, para posteriormente disponibilizar un Dashboard Interactivo utilizando Power BI.
 
 ![Logo](https://github.com/Adrsilbad32/Proyecto_Individual_2/blob/main/Imagenes/tecnologia-tecnologia_523458626_160950481_1706x960.jpg)
 

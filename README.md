@@ -49,7 +49,7 @@ Se pueden visualizar las transformaciones y los análisis realizados en el sigui
 
 ## Dashboard e insights
 
-El [dashboard](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/dashboard_air_accidents.pbix) consta de 1 portada y 5 páginas navegables a través de una botonera de navegación.
+El [dashboard](https://github.com/Adrsilbad32/Proyecto_Individual_2/blob/main/dashboard_air_accidents.pbix) consta de 1 portada y 5 páginas navegables a través de una botonera de navegación.
 
 
 ### País
@@ -58,7 +58,7 @@ En la primer página denominada **`País`**, se pueden observar los accidentes p
 Podemos observar a `Estados Unidos` como el país con mayor cantidad de accidentes a lo largo de la historia y Rusia como el segundo.
 Por último podemos visualizar una tarjeta de KPI que muestra la tasa de mortalidad por año. 
 
-![Logo](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/src/pais.PNG?raw=true)
+![Logo]()
 
 
 ### Operador
@@ -67,7 +67,7 @@ En la segunda página denominada **`Operador`**, se puede observar la cantidad d
 Podemos observar a `Aeroflot` como la aerolínea con mayor cantidad de accidentes históricos seguido por la fuerza aérea de Estados Unidos.
 Por último podemos visualizar un KPI para la tasa de supervivencia estableciendo un **`target`** de un 50% para la misma. Observamos que la tasa de supervivencia varía de operador en operador, pero que un objetivo es mantener la misma por encima de un 50% para mejorar la seguridad en los vuelos (observar tendencia histórica).
 
-![Logo](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/src/operador.PNG?raw=true)
+![Logo]()
 
 
 ### Aeronave
@@ -76,7 +76,7 @@ En la tercer página denominada **`Aeronave`**, se puede observar la cantidad de
 Podemos observar al `Douglas DC-3` como el avión con mayor cantidad de accidentes a lo largo de la historia. El mismo perteneció a la compañía Douglas que con el tiempo mutó a MCDonell Douglas para finalmente convertirse en Boeing.
 
 
-![Logo](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/src/aeronave.PNG?raw=true)
+![Logo]()
 
 
 ### Tendencia
@@ -86,7 +86,7 @@ Podemos destacar que no siempre existe una relación directa entre la tendencia 
 Por otro lado se pueden analizar la cantidad de accidentes a lo largo de los años con la media móvil de 10 períodos, lo cual nos permite concluír que los años donde la cantidad de accidentes se ha encontrado por debajo de la media móvil, han resultado años con baja siniestralidad, mientras que aquellos años donde la cantidad ha estado por encima han sido años con una gran cantidad de accidentes (años entre 1946 y 2004). Dicha media móvil puede ser ajustada en función de las circunstancias del futuro. Tal es así que podemos inferir que a nivel mundial estamos en una tendencia a la baja en cantidad de accidentes desde 1989 (año en que comienza a descender la cantidad de accidentes) y por debajo del promedio móvil de 10 años en los años siguientes por lo que resulta interesante mantenerse por debajo de dicho patrón para los próximos años.
 Por último analizamos la variación interanual de accidentes y podemos filtrar por países como Estados Unidos para observar cómo se ha comportado en los últimos años pese a tener la mayor cantidad de accidentes y pasajeros históricos.
 
-![Logo](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics/blob/main/src/tendencia.PNG?raw=true)
+![Logo]()
 
 ## Conclusiones
 

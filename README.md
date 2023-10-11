@@ -20,7 +20,7 @@ El [dataset](https://github.com/fedeandresg/2-proyecto-individual-Data-Analytics
 El propósito del trabajo fue describir las características de vuelos siniestrados a los efectos de analizar los siguientes **`KPI's`** propuestos:
 
 - Evaluar la disminución de un 10% la tasa de fatalidad de la tripulación en los últimos 10 años, comparado a la década anterior.
-- Evolución de accidentes aéreos y comparación con métricas para definir **`tendencia`**;
+- Evolución de accidentes aéreos y comparación con métricas anteriores.
 
 
 ## ETL  
